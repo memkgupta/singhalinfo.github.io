@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Singhal Info And Associates</title>
+    <script src="https://kit.fontawesome.com/47b5c29c2e.js" crossorigin="anonymous"></script>
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+ 
+
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- swiper -->
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
+
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              },
+              screens: {
+        'sm': '640px',    // Custom small screen breakpoint
+        'md': '768px', 
+        'mdl':'800px',   // Custom medium screen breakpoint
+        'lg': '1024px',   // Custom large screen breakpoint
+        'xl': '1280px',   // Custom extra-large screen breakpoint
+      },
+            }
+          }
+        }
+      </script>
+</head>
+<body>
+   
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo flex items-center"><a href="#">
+            <img src="./logo.png" alt="Singhal Associates" style="max-height: 50px;" srcset="">
+        </a></div>
+        <ul class="nav-links items-center">
+            <li><a onclick="scrollFun('main')" class="nav-link">Home</a></li>
+            <li><a onclick="scrollFun('about')" class="nav-link">About</a></li>
+            <li><a onclick="scrollFun('services')" class="nav-link">Services</a></li>
+            
+            <li><a onclick="scrollFun('get_call')" class="nav-link">Contact</a></li>
+            <li><button class="make_app p-3 bg-white  text-black ml-5 sm:mb-5 md:mb-0 " onclick="scrollFun('get_call')">Make An Appointment</button></li>
+        </ul>
+       <ul class="socials">
+        <li><a href="#" class="nav-link"><i class="fa-brands fa-x-twitter"></i></a></li>
+            <li><a href="#" class="nav-link"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="#" class="nav-link"><i class="fa-brands fa-linkedin"></i></a></li>
+       </ul>
+        <div class="menu-toggle">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+    <!-- Header -->
+ 
+<main id="main" class="max-w-screen min-h-screen pt-36">
+    <div class="overlay"></div>
+<div class="w-full flex justify-end ">
+<div id="main_content" class="grid ">
+<p class="text-3xl font-bold text-white mb-3 font-light animate__animated animate__slideInRight">We're Tax Consultant</p>
+<div class="flex animate__animated animate__slideInLeft">
+    <div class="h-max-content bg-yellow-600 w-2 "></div>
+    <p class="text-6xl font-extrabold text-white ml-2 p-4 ">Help You To <br> Manage Your Tax</p>
+</div>
+<p class="flex flex-wrap mt-2 text-white font-light animate__animated animate__slideInRight">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. 
+</p>
+<div class="flex justify-between mt-5">
+   <div class="flex">
+    <a href="#" class="bg-yellow-600 p-3 hover:bg-white transition ease-in-out duration-300 animate__animated animate__slideInLeft">Get Started</a>
+    <a href="#" class="p-3 ml-2 text-white animate__animated animate__slideInRight flex items-center"  target="_blank" rel="noopener noreferrer"><i class="fa-regular fa-circle-play text-2xl text-white hover:text-yellow-600 mr-1"></i> Watch Video</a>
+   </div>
+</div>
+</div>
+</div>
+</main>
+<!-- get call -->
+
+<section id="get_call" class="grid lg:grid-cols-2 p-12">
+    <div id="get_call_content" class="grid p-12 ">
+        <p class="text-xl font-bold text-yellow-400">Welcome To Singhal Associates</p>
+        <p class="mt-8 text-green-900 font-extrabold text-5xl">We Will Provide Best Tax Service For Your Business.</p>
+        <div class="w-36 h-2 bg-yellow-500 mt-5"></div>
+        <p class="mt-5 text-light text-gray-600">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+        </p>
+        <div class="grid grid-cols-2 mt-5 gap-y-3">
+            <div class="flex items-center"><i class="fa-solid fa-check " style="color: #f0cf11;"></i> <p class="text-base font-bold text-gray-600 ml-2">Learn From Client Feedback</p></div>
+            <div class="flex items-center"><i class="fa-solid fa-check " style="color: #f0cf11;"></i> <p class="text-base font-bold text-gray-600 ml-2">Learn From Feedback</p></div>
+            <div class="flex items-center"><i class="fa-solid fa-check " style="color: #f0cf11;"></i> <p class="text-base font-bold text-gray-600 ml-2">Learn From Feedback</p></div>
+            <div class="flex items-center"><i class="fa-solid fa-check " style="color: #f0cf11;"></i> <p class="text-base font-bold text-gray-600 ml-2">Learn From Feedback</p></div>
+            <div class="flex items-center"><i class="fa-solid fa-check " style="color: #f0cf11;"></i> <p class="text-base font-bold text-gray-600 ml-2">Learn From Feedback</p></div>
+            <div class="flex items-center"><i class="fa-solid fa-check " style="color: #f0cf11;"></i> <p class="text-base font-bold text-gray-600 ml-2">Learn From Feedback</p></div>
+            <div class="flex items-center"><i class="fa-solid fa-check " style="color: #f0cf11;"></i> <p class="text-base font-bold text-gray-600 ml-2">Learn From Feedback</p></div>
+            <div class="flex items-center"><i class="fa-solid fa-check " style="color: #f0cf11;"></i> <p class="text-base font-bold text-gray-600 ml-2">Learn From Feedback</p></div>
+            
+        
+        </div>
+        <div class="grid grid-cols-3 content-center mt-12">
+           <div class="flex justify-center"> <img src="./founder_sign.png" class="w-48 h-12" alt="" srcset=""></div>
+            <div class=" h-24 bg-gray-200 mr-auto ml-auto" style="width: 2px;"></div>
+            <div class="grid">
+                <p class="text-3xl text-gray-900">Akhil Singhal</p>
+                <p class="subtext">Founder</p>
+            </div>
+        </div>
+    </div>
+    <div id="get_call_card"  class="card shadow-xl shadow-2xl p-24 z-60 bg-gray-100 ">
+        <h2 class="text-4xl mb-4 font-extrabold text-teal-950">Request a call back</h2>
+        <form action="#" method="post">
+            <div class="mb-4">
+                <label for="name" class="block font-semibold">Name:</label>
+                <input type="text" id="name" name="name" class="w-full p-2 outline-none bg-gray-300 mt-2" required>
+            </div>
+
+            <div class="mb-4">
+                <label for="email" class="block font-semibold">Email:</label>
+                <input type="email" id="email" name="email" class="w-full p-2 outline-none bg-gray-300 mt-2" required>
+            </div>
+
+            <div class="mb-4">
+                <label for="phone" class="block font-semibold">Phone No:</label>
+                <input type="tel" id="phone" name="phone" class="w-full p-2 outline-none bg-gray-300 mt-2">
+            </div>
+
+            <div class="mb-4">
+                <label for="details" class="block font-semibold">Additional Details:</label>
+                <textarea id="details" name="details" rows="4" class="w-full p-2 outline-none bg-gray-300 mt-2 resize-y"></textarea>
+            </div>
+
+            <button type="submit" class="bg-yellow-500 text-green-900 py-2 px-4  mt-2 hover:bg-green-900 hover:text-white">Get A Quote</button>
+        </form>
+    </div>
+</section>
+
+<!-- Service categs -->
+
+<div id="service_categs" class="grid md:grid-cols-3 mt-5 justify-items-center gap-y-12">
+    <div class="flex">
+        <div class="grid gap-y-2">
+            <img src="./consultants.png" class="max-w-8 " alt="" style="max-width: 50px;">
+            <!-- <a  class="text-gray-100 cursor" href="https://www.freepik.com/search?format=search&last_filter=query&last_value=consultants&query=consultants&type=icon">Icon by Eucalyp</a> -->
+        </div>
+        <div class="ml-2  grid  gap-y-2"><p class="text-3xl text-teal-950">Expert Consultants</p>
+        <div class="w-60">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+        </div>
+        </div>
+    </div>
+    <div class="flex">
+        <div class="grid gap-y-2">
+            <img src="./tax.png" class="max-w-8 " alt="">
+            <!-- <a  class="text-gray-100 cursor" href="https://www.freepik.com/search?format=search&last_filter=query&last_value=project+report&query=project+report&type=icon">Icon by Freepik</a> -->
+        </div>
+        <div class="ml-2  grid  gap-y-2"><p class="text-3xl text-teal-950">Tax Work</p>
+        <div class="w-60">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+        </div>
+        </div>
+    </div>
+<!-- Audit  -->
+<div class="flex">
+    <div class="grid gap-y-2">
+        <img src="./audit.png" class="max-w-8 " alt="" style="max-width: 50px;">
+        <!-- <a  class="text-gray-100 cursor" href="https://www.freepik.com/search?format=search&last_filter=query&last_value=project+report&query=project+report&type=icon">Icon by Freepik</a> -->
+    </div>
+    <div class="ml-2  grid  gap-y-2"><p class="text-3xl text-teal-950">Audit Work</p>
+    <div class="w-60">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+    </div>
+    </div>
+</div>
+
+</div>
+
+<!-- Dynamic text Container -->
+<!-- <div class="mt-12 bg-teal-950 sm:w-full md:w-4/6 " style="min-height: 500px;">
+    <div class="typing-container">
+        <span id="typing-text"></span>
+      </div>
+</div> -->
+<!-- Our Services -->
+<div class="grid gap-y-5 mt-24 " id="services" >
+    <p class="text-center text-lg font-bold text-yellow-500">Our Services</p>
+    <p class="mt-3 text-4xl text-teal-950 text-center font-bold">What we Provide</p>
+    <div class="mr-auto ml-auto w-36 h-1 bg-yellow-500"></div>
+    <div  class="grid lg:grid-cols-3 grid-cols-1 justify-items-center gap-y-12 mt-12 animate__animated animate__slideInUp ">
+        <div class="service_card  shadow-md  transition ease-in-out duration-300">
+            <div class="service_card_background"></div>
+            <div class="text-teal-950 hover:text-white z-5 p-8 transition ease-in-out duration-300">
+                <img src="./tax.png" class="max-w-8 mb-5" alt="">
+                <!-- <a  class="text-gray-100 cursor" href="https://www.freepik.com/search?format=search&last_filter=query&last_value=project+report&query=project+report&type=icon">Icon by Freepik</a> -->
+               <p class="text-4xl" style="overflow-y: hidden;">GST Work</p> 
+                <p class="text-base" style="max-width: 400px;">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe unde hic cupiditate similique labore velit laboriosam in fuga veritatis numquam magnam, iusto quos facere sit voluptatem aspernatur minima quae deleniti!
+                </p>
+            </div>
+        </div>
+        <div class="service_card shadow-md  transition ease-in-out duration-300">
+            <div class="service_card_background"></div>
+            <div class="text-teal-950 hover:text-white z-5 p-8 transition ease-in-out duration-300">
+                <img src="./tax.png" class="max-w-8 mb-5" alt="">
+                <!-- <a  class="text-gray-100 cursor" href="https://www.freepik.com/search?format=search&last_filter=query&last_value=project+report&query=project+report&type=icon">Icon by Freepik</a> -->
+                <p class="text-4xl" style="overflow-y: hidden;">GST Work</p> 
+                <p class="text-base" style="max-width: 400px;">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe unde hic cupiditate similique labore velit laboriosam in fuga veritatis numquam magnam, iusto quos facere sit voluptatem aspernatur minima quae deleniti!
+                </p>
+            </div>
+        </div>
+        <div class="service_card shadow-md  transition ease-in-out duration-300">
+            <div class="service_card_background"></div>
+            <div class="text-teal-950 hover:text-white z-5 p-8 transition ease-in-out duration-300">
+                <img src="./tax.png" class="max-w-8 mb-5" alt="">
+                <!-- <a  class="text-gray-100 cursor" href="https://www.freepik.com/search?format=search&last_filter=query&last_value=project+report&query=project+report&type=icon">Icon by Freepik</a> -->
+               <p class="text-4xl" style="overflow-y: hidden;">GST Work</p> 
+                <p class="text-base" style="max-width: 400px;">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe unde hic cupiditate similique labore velit laboriosam in fuga veritatis numquam magnam, iusto quos facere sit voluptatem aspernatur minima quae deleniti!
+                </p>
+            </div>
+        </div>
+        <div class="service_card shadow-md  transition ease-in-out duration-300">
+            <div class="service_card_background"></div>
+            <div class="text-teal-950 hover:text-white z-5 p-8 transition ease-in-out duration-300">
+                <img src="./tax.png" class="max-w-8 mb-5" alt="">
+                <!-- <a  class="text-gray-100 cursor" href="https://www.freepik.com/search?format=search&last_filter=query&last_value=project+report&query=project+report&type=icon">Icon by Freepik</a> -->
+               <p class="text-4xl" style="overflow-y: hidden;">GST Work</p> 
+                <p class="text-base" style="max-width: 400px;">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe unde hic cupiditate similique labore velit laboriosam in fuga veritatis numquam magnam, iusto quos facere sit voluptatem aspernatur minima quae deleniti!
+                </p>
+            </div>
+        </div>
+        <div class="service_card shadow-md  transition ease-in-out duration-300">
+            <div class="service_card_background"></div>
+            <div class="text-teal-950 hover:text-white z-5 p-8 transition ease-in-out duration-300">
+                <img src="./tax.png" class="max-w-8 mb-5" alt="">
+                <!-- <a  class="text-gray-100 cursor" href="https://www.freepik.com/search?format=search&last_filter=query&last_value=project+report&query=project+report&type=icon">Icon by Freepik</a> -->
+               <p class="text-4xl" style="overflow-y: hidden;">GST Work</p> 
+                <p class="text-base" style="max-width: 400px;">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe unde hic cupiditate similique labore velit laboriosam in fuga veritatis numquam magnam, iusto quos facere sit voluptatem aspernatur minima quae deleniti!
+                </p>
+            </div>
+        </div>
+        <div class="service_card shadow-md  transition ease-in-out duration-300">
+            <div class="service_card_background"></div>
+            <div class="text-teal-950 hover:text-white z-5 p-8 transition ease-in-out duration-300">
+                <img src="./tax.png" class="max-w-8 mb-5" alt="">
+                <!-- <a  class="text-gray-100 cursor" href="https://www.freepik.com/search?format=search&last_filter=query&last_value=project+report&query=project+report&type=icon">Icon by Freepik</a> -->
+               <p class="text-4xl" style="overflow-y: hidden;">GST Work</p> 
+                <p class="text-base" style="max-width: 400px;">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe unde hic cupiditate similique labore velit laboriosam in fuga veritatis numquam magnam, iusto quos facere sit voluptatem aspernatur minima quae deleniti!
+                </p>
+            </div>
+        </div>
+      
+
+    </div>
+</div>
+
+
+<!-- About us -->
+<div class="grid" id="about">
+    <p class="text-center text-yellow-500 text-lg font-bold mt-12">About Us</p>
+    <p class="text-center text-teal-950 text-5xl font-bold mt-6">Who Are We ?</p>
+    <div class="mr-auto ml-auto w-36 h-1 bg-yellow-500 mt-5"></div>
+    <div class="py-12 px-36 text-center flex flex-wrap text-gray-500" >
+    " Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus maxime est consequuntur totam ducimus magnam nesciunt ratione quidem voluptatibus recusandae veniam, sequi fugit dicta corporis dolore iure eaque distinctio commodi incidunt? Expedita nesciunt ad illum accusamus dolorum voluptas, corrupti ut quos suscipit commodi, dolores consequatur at nostrum eum minima delectus. Tempore atque necessitatibus laboriosam aut vel dolores fuga excepturi modi officia reprehenderit earum possimus explicabo, voluptas eveniet similique consectetur tempora quod ipsam sed dolor enim amet iste consequatur laudantium. Nisi dolores debitis eius, totam, aliquam commodi quidem, animi architecto alias iusto deserunt. Rem doloribus omnis perspiciatis neque distinctio et consequuntur ullam odit dolore officiis sequi ab quaerat, quo, recusandae libero quas assumenda esse nulla dolorum illo nostrum. Beatae reprehenderit iure illo labore temporibus inventore impedit in libero odit dolor aliquid est delectus minus eveniet enim laboriosam eaque alias, dolore doloribus. Ea, autem? In quibusdam quae nisi! Perspiciatis incidunt veniam blanditiis maxime eaque, distinctio nulla doloribus dolores impedit nesciunt quis minima soluta atque a voluptatibus beatae! Nam ex omnis optio delectus nesciunt consequuntur quod nemo velit. Ducimus consequuntur doloremque accusantium labore voluptas beatae, nobis deserunt tempora quod sequi qui cupiditate dolor quae possimus rerum sed, velit autem, laborum earum? Dolorem consectetur, alias voluptatem minima ipsum quia temporibus tempora, quod dolorum iste hic delectus unde, placeat quasi. Vitae quasi quas laudantium repellendus temporibus quidem voluptates error reiciendis asperiores blanditiis facere cum ratione eligendi adipisci rem alias, rerum, sit hic pariatur, deserunt aspernatur? Accusantium doloremque, quidem sunt quod sed dignissimos corporis unde distinctio laboriosam facilis minima vel doloribus exercitationem ratione ad minus. Culpa sunt libero laboriosam architecto, consectetur vel fuga illo a dignissimos quis, officia eius ducimus maiores aperiam dolor. Eius blanditiis corporis, voluptatum sed ipsum soluta repellat! Error consequuntur culpa eaque cum voluptatem eligendi autem modi, accusamus mollitia ipsam architecto inventore dolorum molestiae beatae dolor et eius animi, eum aut exercitationem totam porro perspiciatis possimus. Enim, officia id. Voluptatum distinctio aliquam explicabo, a molestiae et ea laudantium iste impedit, quae corrupti ducimus fugit asperiores doloremque rerum iusto aliquid sapiente quo ipsa omnis totam quidem. Ratione, quis reiciendis. "</div>
+</div>
+<!-- Our Clients -->
+
+<div id="clients" class="p-12 main_bg mt-24 md:flex sm:grid gap-y-5 items-center justify-around sm:content-center bg-transparent bg-opacity-25">
+     
+    <div class="grid gap-y-2 items-center"><i class="mr-auto ml-auto fa-solid fa-user-group text-5xl" style="color: #ffcd38;"></i><span  class="  flex justify-center items-center text-white text-2xl"><p id="no_of_clients" class="font-extrabold text-white text-5xl"></p>+</span>
+    <p class="text-white text-xl text-center">Happy Clients</p>
+    </div>
+    <div class="grid gap-y-2 items-center"><i class="mr-auto ml-auto fa-solid fa-list-check text-5xl" style="color: #ffcd38;"></i><span  class="  flex justify-center items-center text-white text-2xl"><p id="total_projects" class="font-extrabold text-white text-5xl"></p>+</span>
+        <p class="text-white text-xl">Projects Completed</p>
+        </div>
+        <div class="grid gap-y-2 items-center"><i class="mr-auto ml-auto fa-solid fa-business-time text-5xl" style="color: #ffcd38;"></i><span  class="  flex justify-center items-center text-white text-2xl"><p id="total_experience" class="font-extrabold text-white text-5xl"></p>+</span>
+            <p class="text-white text-xl text-center">Experience</p>
+            </div>
+</div>
+
+
+<!-- Testimonials Section -->
+
+<div class="grid mt-12">
+    <p class="text-center text-lg font-bold text-yellow-500">Testimonials</p>
+    <p class="mt-3 text-4xl text-teal-950 text-center font-bold">What our client says</p>
+    <div class="mr-auto ml-auto w-36 h-1 bg-yellow-500 mt-5"></div>
+
+    <div class="flex justify-center ">
+        <div class="wrapper p-24 rounded-md flex justify-center">
+            <!-- <i id="left" class="fa-solid fa-angle-left"></i> -->
+            <ul class="carousel ">
+              <li class="card">
+                <div class="img"><img src="./office_building.jpg" alt="img" draggable="false"></div>
+                <h2>Blanche Pearson</h2>
+                <span>Sales Manager</span>
+              </li>
+              <li class="card">
+                <div class="img"><img src="./office_building.jpg" alt="img" draggable="false"></div>
+                <h2>Joenas Brauers</h2>
+                <span>Web Developer</span>
+              </li>
+              <li class="card">
+                <div class="img"><img src="./office_building.jpg" alt="img" draggable="false"></div>
+                <h2>Lariach French</h2>
+                <span>Online Teacher</span>
+              </li>
+              <li class="card">
+                <div class="img"><img src="./office_building.jpg" alt="img" draggable="false"></div>
+                <h2>James Khosravi</h2>
+                <span>Freelancer</span>
+              </li>
+              <li class="card">
+                <div class="img"><img src="./office_building.jpg" alt="img" draggable="false"></div>
+                <h2>Kristina Zasiadko</h2>
+                <span>Bank Manager</span>
+              </li>
+              <li class="card">
+                <div class="img"><img src="./office_building.jpg" alt="img" draggable="false"></div>
+                <h2>Donald Horton</h2>
+                <span>App Designer</span>
+              </li>
+            </ul>
+            <!-- <i id="right" class="fa-solid fa-angle-right"></i> -->
+          </div>
+    </div>
+
+      </div>
+      <footer class="bg-teal-950 text-white py-4">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2023 Singhal Info And Associates </p>
+            <ul class="mt-2">
+                <li class="inline-block mr-4"><a href="#" class="text-white">Privacy Policy</a></li>
+                <li class="inline-block mr-4"><a href="#" class="text-white">Terms of Service</a></li>
+                <li class="inline-block"><a href="#" class="text-white">Contact Us</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+<script src="./index.js"></script>
+
+</html>
