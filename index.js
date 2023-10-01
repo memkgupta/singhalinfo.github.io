@@ -1,11 +1,11 @@
 const menuToggle = document.querySelector('.menu-toggle');
-const navLinks = document.querySelector('.nav-links');
+const navLinks = document.querySelector('.nav-links-2');
 const scrollFun = (id)=>{
     const element = document.getElementById(id);
     element.scrollIntoView({behavior:"smooth"})
 }
 menuToggle.addEventListener('click', () => {
-    navLinks.classList.toggle('active');
+    navLinks.classList.toggle('hidden');
     
     // navLinks.classList.toggle('animate__animated animate__fadeInLeft');
 });

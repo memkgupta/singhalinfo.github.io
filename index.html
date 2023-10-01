@@ -52,7 +52,7 @@
         <div class="logo flex items-center"><a href="#">
             <img src="./logo.png" alt="Singhal Associates" style="max-height: 50px;" srcset="">
         </a></div>
-        <ul class="nav-links items-center">
+        <ul class="nav-links items-center md:flex sm:hidden">
             <li><a onclick="scrollFun('main')" class="nav-link">Home</a></li>
             <li><a onclick="scrollFun('about')" class="nav-link">About</a></li>
             <li><a onclick="scrollFun('services')" class="nav-link">Services</a></li>
@@ -69,6 +69,14 @@
             <i class="fa-solid fa-bars"></i>
         </div>
     </nav>
+    <ul class="nav-links-2 items-center flex justify-center">
+        <li><a onclick="scrollFun('main')" class="nav-link text-white">Home</a></li>
+        <li><a onclick="scrollFun('about')" class="nav-link text-white">About</a></li>
+        <li><a onclick="scrollFun('services')" class="nav-link text-white">Services</a></li>
+        
+        <li><a onclick="scrollFun('get_call')" class="nav-link text-white">Contact</a></li>
+        <li><button class="make_app p-3 bg-white  text-black ml-5 sm:mb-5 md:mb-0 " onclick="scrollFun('get_call')">Make An Appointment</button></li>
+    </ul>
     <!-- Header -->
  
 <main id="main" class="max-w-screen min-h-screen pt-36">
